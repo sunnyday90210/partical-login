@@ -5,28 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Particles Login</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="particles-js">
     <div id="login">
-      <form>
-        <div>
-          <label for="username">Username</label>
-          <br>
-          <input type="text" placeholder="Username">
-        </div>
-        <div>
-          <label for="password">Password</label>
-          <br>
-          <input type="text" placeholder="Password">
-        </div>
-        <input type="submit" value="Login">
-      </form>
+          <div class="card-body bg-danger text-white">
+            <h3>Sign In</h3>
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control form-control-lg" placeholder="Username">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control form-control-lg" placeholder="Password">
+              </div>
+              <input type="submit" class="btn btn-outline-light btn-block">
+            </form>
+          </div>
     </div>
   </div>
 
-
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+  crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" charset="utf-8"></script>
 
   <script>

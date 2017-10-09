@@ -1,7 +1,7 @@
 {
   "particles":{
     "number":{
-      "value":400
+      "value":200
     },
     "color":{
       "value":"#fff"
@@ -13,7 +13,7 @@
         "color":"#ccc"
       },
       "image":{
-        "src":"https://lh3.ggpht.com/4LoMC6Ef0zE9-ivEnjkAesQctC_b7GhUbxLFFAr_nJDbsQ_CdaeoHqsVX_Sx_CebL4A=w300"
+        "src":"https://assets-cdn.github.com/images/modules/logos_page/Octocat.png"
       }
     },
     "opacity":{
